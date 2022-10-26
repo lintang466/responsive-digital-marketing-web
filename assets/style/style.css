@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&display=swap');
+
+/* ----------------- Variable ------------------ */
+
+:root {
+    /* text Color */
+    --text-grey: #808291;
+    --text-white: #f8f9fa;
+    --primary-color: #554994;
+    --secondary-color: #6E85B7;
+    --light-color: #FDFAF6;
+    --bg-color: #F4F9F9;
+    --text-color: #212121;
+    --border-color: #121212;
+    /* Font family */
+    --font: 'Poppins', sans-serif;
+    /* Gradient Color */
+    --background-image: linear-gradient( 174.2deg, rgba(255, 244, 228, 1) 7.1%, rgba(240, 246, 238, 1) 67.4%);
+    /* --bg */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* ------------------- global -------------------- */
+
+.text-dark {
+    color: var(--text-color);
+}
+
+.text-white {
+    color: var(--text-white);
+}
+
+.text-light {
+    color: var(--light-color);
+}
+
+.text-grey {
+    color: var(--text-grey);
+}
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.gradient-color {
+    color: var(--background-image);
+}
+
+
+/* ------------------- header -------------------- */
+
+header h1 {
+    color: var(--primary-color);
+}
